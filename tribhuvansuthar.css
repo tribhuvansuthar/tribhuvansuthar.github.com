@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+	padding: 0;
+}
+body{
+	background: #1d1d1d;
+	background-size: 100% 100%;
+}
+.header{
+	width:100%;
+	background: #1d1d1d;
+	padding-bottom:50px
+}
+h1{
+	color:#e6e3e3;
+	text-align : center;
+	font : 60px Swis721 LtEx BT;
+	font-family:Agency FB;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 2.9px #b3b2b2;
+	margin-bottom:50px;
+}
+span{
+	color:#01a0fc;
+	text-align :left;
+	font: 30px Agency FB;
+	
+	-webkit-font-smoothing:antialiased;
+}
+p{
+	color:#e6e3e3;
+	text-align:center;
+	font: 30px Agency FB;
+}
+.circle1{
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.circle{
+	text-align :center;
+	font: 22px Agency FB;
+	width: 25px;
+	height: 30px;
+	background: #555;
+	border-radius: 100%;
+	padding: 22px;
+	float: left;
+	margin-right: 140px;
+	margin-top:35px;
+}
+.circle2{
+	margin-right:0;
+}
+.cent{
+	height:1500px;
+	width:100%;
+	
+	background:#7b7b7b;
+	-webkit-box-shadow:inset 0px 5px 8px #111;
+}
+h2{
+	color:#1e1d1d;
+	text-align : center;
+	font : 60px Swis721 LtEx BT;
+	font-family:Agency FB;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 1px 2.9px #b3b2b2;
+	margin-bottom:50px;
+}
+.image{
+	margin:0 auto; 
+	width:932px;
+}
+img{
+	float:left;
+	width:400px;
+	height:250px;
+	border: 10px solid #fff;
+	margin:20px;
+	overflow:hidden;
+	-webkit-box-shadow:5px 5px 5px #111;
+	-webkit-transition:all 1s ease;
+	
+}
+img:hover{bottom:10px;
+	position:relative;
+	
+	}
+.footer{padding: 34px 0;
+	-webkit-box-shadow:0px -5px 8px #111;}
