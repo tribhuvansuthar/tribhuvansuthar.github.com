@@ -86,7 +86,7 @@ img{
 }
 img:hover{bottom:10px;
 	position:relative;
-	
 	}
 .footer{padding: 34px 0;
 	-webkit-box-shadow:0px -5px 8px #111;}
+a div:hover { -webkit-box-shadow:inset 0px 0px 5px #111;}
