@@ -15,7 +15,7 @@ h1{
 	color:#e6e3e3;
 	text-align : center;
 	font : 60px Swis721 LtEx BT;
-	font-family:Verdana;
+	font-family:Jura;
 	-webkit-font-smoothing: antialiased;
 	text-shadow: 0 1px 2.9px #b3b2b2;
 	margin-bottom:50px;
@@ -23,14 +23,14 @@ h1{
 span{
 	color:#01a0fc;
 	text-align :left;
-	font: 30px Verdana;
+	font: 30px Jura;
 	
 	-webkit-font-smoothing:antialiased;
 }
 p{
 	color:#e6e3e3;
 	text-align:center;
-	font: 30px Verdana;
+	font: 30px Jura;
 }
 .circle1{
 	width: 500px;
@@ -40,7 +40,7 @@ p{
 
 .circle{
 	text-align :center;
-	font: 22px Verdana;
+	font: 22px Comfortaa;
 	width: 25px;
 	height: 30px;
 	background: #555;
@@ -55,11 +55,11 @@ p{
 	text-align:center;
 }
 h3{text-align:center;
-	font: 22px Verdana;
+	font: 22px Comfortaa;
 	margin-left: -17px;
 }
 h4{text-align:center;
-	font: 22px Verdana;
+	font: 22px Comfortaa;
 	margin-left: -10px;
 }
 .cent{
@@ -67,12 +67,12 @@ h4{text-align:center;
 	width:100%;
 	background:#7b7b7b;
 	-webkit-box-shadow:inset 0px 5px 8px #111;
+	box-shadow: inset 0px 5px 8px #111;
 }
 h2{
 	color:#1e1d1d;
 	text-align : center;
-	font : 60px Swis721 LtEx BT;
-	font-family:Verdana;
+	font : 60px Jura;
 	-webkit-font-smoothing: antialiased;
 	text-shadow: 0 1px 2.9px #b3b2b2;
 	margin-bottom:50px;
@@ -96,7 +96,10 @@ img:hover{bottom:10px;
 	
 	}
 .footer{padding: 34px 0;
-	-webkit-box-shadow:0px -5px 8px #111;}
+	-webkit-box-shadow:0px -5px 8px #111;
+	box-shadow:0px -5px 8px #111;
+	}
 a div:hover{
 	-webkit-box-shadow:inset 0px 0px 5px #111;
+	box-shadow:inset 0px 0px 5px #111;
 }
