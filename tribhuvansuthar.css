@@ -508,3 +508,424 @@ margin-top: 17px;
 a{
 	text-decoration: none;
 }
+/*media Query*/
+@media screen and (max-width: 1280px) {
+	.char {
+	    margin-left: 10%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 400px;
+}
+.introH2 {
+        margin-left: 400px;
+        }
+ .images {
+     height: 190px;
+     }
+     #ch-in {
+         height: 190px;
+     }
+.ch-info p {
+    margin: 0px 24px;
+    }
+.PORT1 {
+    margin-left: 80px;
+}
+.PORT2 {
+    margin-left: 190px;
+}       
+.SocialIcon {
+    margin-left: 37%;
+}
+  }      
+@media screen and (max-width:1200px){
+	.char {
+	    margin-left: 7%;
+	    max-width: 940px;
+	}
+	.intro {
+		    margin-left: 300px;
+	}
+	.introH2 {
+	        margin-left: 300px;
+	        }
+	.PORT1 {
+	    margin-left: 4%;
+	}
+	.PORT2 {
+	    margin-left: 13%;
+	}  
+	.SocialIcon {
+	    margin-left: 36%;
+	}     
+}
+@media screen and (min-width:1150px) and (max-width:1199px){
+	.char {
+	    margin-left: 5%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 290px;
+	}
+	.introH2 {
+	        margin-left: 290px;
+	}
+	.SkillMargin{
+		margin-left: -10%;
+	}
+	.images {
+	    height: 170px;
+	}
+	#ch-in {
+	    height: 170px;
+	}
+	.ch-info p {
+	    margin: 0px 14px;
+	}
+	.SocialIcon {
+	    margin-left: 35%;
+	} 
+}
+@media screen and (min-width:1101px) and (max-width:1149px){
+	.char {
+	    margin-left: 5%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 290px;
+	}
+	.introH2 {
+	        margin-left: 290px;
+	}
+	.SkillMargin{
+		margin-left: -10%;
+	}
+	.images {
+	    height: 170px;
+	}
+	#ch-in {
+	    height: 170px;
+	}
+	.ch-info p {
+	    margin: 0px 14px;
+	}
+	.SocialIcon {
+	    margin-left: 35%;
+	} 
+}
+@media screen and (min-width:1051px) and (max-width:1100px){
+	.char {
+	    margin-left: 3%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 250px;
+	}
+	.introH2 {
+	        margin-left: 250px;
+	}
+	.SkillMargin{
+		margin-left: -12%;
+	}
+	.images {
+	    height: 170px;
+	}
+	#ch-in {
+	    height: 170px;
+	}
+	.ch-info p {
+	    margin: 0px 14px;
+	}
+	.SocialIcon {
+	    margin-left: 35%;
+	}    
+}
+@media screen and (min-width:1011px) and (max-width:1050px) {
+	.char {
+	    margin-left: 3%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 250px;
+	    font-size: 60px;
+	}
+	.introH2 {
+	    margin-left: 250px;
+	    font-size: 32px;
+	}
+	.SkillMargin{
+		margin-left: -15%;
+	}
+	.images {
+	    height: 160px;
+	}
+	#ch-in {
+	    height: 160px;
+	}
+	.ch-info p {
+	    margin: 0px 9px;
+	}
+	.SocialIcon {
+	    margin-left: 34%;
+	}    
+}
+/*@media screen and (max-width:1010px){
+	.SocialIcon {
+	    margin-left: 33%;
+	}  
+}*/
+@media screen and (min-width:1000px) and (max-width:1010px){
+	.char {
+	    margin-left: 3%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 250px;
+	    font-size: 55px;
+	}
+	.introH2 {
+	    margin-left: 250px;
+	    font-size: 29px;
+	}
+	.SkillMargin{
+		margin-left: -18%;
+	}
+	.PORT1 {
+	    margin-left: 2%;
+	}
+	.PORT2 {
+	    margin-left: 11%;
+	}  
+	.images {
+	    height: 160px;
+	}
+	#ch-in {
+	    height: 160px;
+	}
+	.ch-info p {
+	    margin: 0px 9px;
+	}
+	.SocialIcon {
+	    margin-left: 33%;
+	}    
+}
+@media screen and (min-width:981px) and (max-width:999px){
+.char {
+    margin-left: 3%;
+    max-width: 940px;
+}
+.intro {
+    margin-left: 250px;
+    font-size: 55px;
+}
+.introH2 {
+    margin-left: 250px;
+    font-size: 29px;
+}
+.SkillMargin{
+	margin-left: -18%;
+}
+.PORT1 {
+    margin-left: 2%;
+}
+.PORT2 {
+    margin-left: 11%;
+}  
+.images {
+    height: 160px;
+}
+#ch-in {
+    height: 160px;
+}
+.ch-info p {
+    margin: 0px 9px;
+}
+.SocialIcon {
+    margin-left: 33%;
+}
+}
+@media screen and (min-width:901px) and (max-width:980px){
+	
+	/*.PORT1 {
+	    margin-left: 1%;
+	}
+	.PORT2 {
+	    margin-left: 10%;
+	}*/ 
+	.PORT1 {
+	    margin-left: 14%;
+	    padding-right: 100px;
+	}
+	.PORT2 {
+	    margin-left: 14%;
+	    padding-right: 100px;
+	} 
+	#PORTFOLIO {
+	    height: 790px;
+	}
+	
+	
+}
+@media screen and (min-width:801px) and (max-width:900px){
+	.intro {
+	    margin-left: 250px;
+	    font-size: 42px;
+	}
+	.PORT1 {
+	    margin-left: 12%;
+	    padding-right: 30px;
+	}
+	.PORT2 {
+	    margin-left: 12%;
+	    padding-right: 30px;
+	} 
+	.SkillMargin {
+	    margin-left: -30%;
+	}
+	#PORTFOLIO {
+	    height: 790px;
+	}
+	.SocialIcon {
+	    margin-left: 30%;
+	}
+}
+@media screen and (min-width:701px) and (max-width:800px){
+	.intro {
+	    margin-left: 250px;
+	    font-size: 33px;
+	    line-height: 32px;
+	}
+	.introH2 {
+	    margin-left: 250px;
+	    font-size: 23px;
+	    margin-top: -22px;
+	}
+	.SkillMargin {
+	    margin-left: -47%;
+	}
+	.PORT1 {
+	    margin-left: 5%;
+	}
+	.PORT2 {
+	    margin-left: 5%;
+	} 
+	#PORTFOLIO {
+	    height: 790px;
+	}
+	.SocialIcon {
+	    margin-left: 26%;
+	}
+}
+
+@media screen and (min-width:700px) and (max-width:701px){
+	.intro {
+	    margin-left: 250px;
+	    font-size: 33px;
+	    line-height: 32px;
+	}
+	.introH2 {
+	    margin-left: 250px;
+	    font-size: 23px;
+	    margin-top: -22px;
+	}
+	.SkillMargin {
+	    margin-left: -47%;
+	}
+	.PORT1 {
+	    margin-left: 2%;
+	}
+	.PORT2 {
+	    margin-left: 2%;
+	} 
+	#PORTFOLIO {
+	    height: 790px;
+	}
+	.SocialIcon {
+	    margin-left: 26%;
+	}
+}
+@media screen and (min-width:600px) and (max-width:700px){
+	.char {
+	    margin-left: 1%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 215px;
+	    font-size: 32px;
+	    line-height: 32px;
+	}
+	.introH2 {
+	    margin-left: 215px;
+	    font-size: 22px;
+	    margin-top: -22px;
+	}
+	.SkillMargin {
+	    margin-left: -62%;
+	}
+	.PORT1 {
+	    margin-left: 3%;
+	}
+	.PORT2 {
+	    margin-left: 3%;
+	    padding-right: 1px;
+	} 
+	.images {
+	    height: 160px;
+	}
+	#ch-in {
+	    height: 160px;
+	}
+	.ch-info p {
+	    margin: 0px 9px;
+	}
+	#PORTFOLIO {
+	    height: 696px;
+	}
+	.SocialIcon {
+	    margin-left: 24%;
+	}
+}
+@media screen and (min-width:500px) and (max-width:600px){
+	.char {
+	    margin-left: 1%;
+	    max-width: 940px;
+	}
+	.intro {
+	    margin-left: 215px;
+	    font-size: 25px;
+	    line-height: 32px;
+	}
+	.introH2 {
+	    margin-left: 215px;
+	    font-size: 20px;
+	    margin-top: -22px;
+	}
+	.SkillMargin {
+	    margin-left: -69%;
+	}
+	.PORT1 {
+	    margin-left: 3%;
+	}
+	.PORT2 {
+	    margin-left: 3%;
+	    padding-right: 1px;
+	} 
+	.images {
+	    height: 160px;
+	}
+	#ch-in {
+	    height: 160px;
+	}
+	.ch-info p {
+	    margin: 0px 9px;
+	}
+	#PORTFOLIO {
+	    height: 696px;
+	}
+	.SocialIcon {
+	    margin-left: 24%;
+	}
+	
+
+}
