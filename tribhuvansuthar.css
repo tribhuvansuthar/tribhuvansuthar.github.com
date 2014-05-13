@@ -610,6 +610,9 @@ a{
 	.PORT2 {
 	    margin-left: 10%;
 	}*/ 
+	.indicator {
+	    margin-left: 0%;
+	}
 	.PORT1 {
 	    margin-left: 14%;
 	    padding-right: 100px;
@@ -640,6 +643,12 @@ a{
 	.SkillMargin {
 	    margin-left: -30%;
 	}
+	.indicator {
+	    margin-left: 25%;
+	}
+	.skillpower{
+		height: 150px;
+	}
 	#PORTFOLIO {
 	    height: 790px;
 	}
@@ -660,6 +669,12 @@ a{
 	}
 	.SkillMargin {
 	    margin-left: -47%;
+	}
+	.indicator {
+	    margin-left: 32%;
+	}
+	.skillpower{
+		height: 150px;
 	}
 	.PORT1 {
 	    margin-left: 5%;
@@ -688,6 +703,12 @@ a{
 	}
 	.SkillMargin {
 	    margin-left: -47%;
+	}
+	.indicator {
+	    margin-left: 32%;
+	}
+	.skillpower{
+		height: 150px;
 	}
 	.PORT1 {
 	    margin-left: 2%;
@@ -719,6 +740,12 @@ a{
 	}
 	.SkillMargin {
 	    margin-left: -62%;
+	}
+	.indicator {
+	    margin-left: 45%;
+	}
+	.skillpower{
+		height: 100px;
 	}
 	.PORT1 {
 	    margin-left: 3%;
@@ -758,8 +785,17 @@ a{
 	    font-size: 20px;
 	    margin-top: -22px;
 	}
+	.skillh2 {
+	    margin-left: 45%;
+	}
 	.SkillMargin {
 	    margin-left: -69%;
+	}
+	.indicator {
+	    margin-left: 42%;
+	}
+	.skillpower{
+		height: 100px;
 	}
 	.PORT1 {
 	    margin-left: 3%;
@@ -778,7 +814,11 @@ a{
 	    margin: 0px 9px;
 	}
 	#PORTFOLIO {
-	    height: 696px;
+	    height: 1100px;
+	}
+	.conh2 {
+	    font-size: 32px;
+	    
 	}
 	.SocialIcon {
 	    margin-left: 24%;
