@@ -624,7 +624,9 @@ a{
 	#PORTFOLIO {
 	    height: 790px;
 	}
-
+	.SocialIcon {
+	    margin-left: 33%;
+	}
 
 }
 @media screen and (min-width:801px) and (max-width:900px){
