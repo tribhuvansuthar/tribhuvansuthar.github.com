@@ -310,15 +310,15 @@ images:hover{
 }
 
 .icon{
-	
+	margin: 0 auto;
+	max-width: 366px;
 }
 .Social{
 	float: left;
 	overflow: hidden;
 }
 .SocialIcon{
-	margin: 0 auto;
-	max-width: 940px;
+	
 }
 .F{
 	margin-right: 30px;
