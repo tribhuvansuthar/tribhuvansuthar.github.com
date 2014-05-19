@@ -46,7 +46,7 @@ body { background-image: url(../images/Untitled-2.png); background-position: cen
 .header_area { width:100%; float:left; padding:5px 0; background:#2d303a; border-bottom:6px solid #323746; }
 .header_area .sub_wrapper { width:980px; }
 .header_area .logo { width:100px; float:left; }
-.header_area .logo a { width:100px; height:100px; float:left; display:block; background:url(../images/ad_logo.png) no-repeat 0 0; background-size:100%; text-indent:-999em; }
+.header_area .logo a { width:100px; height:100px; float:left; display:block; background:url(https://m1.behance.net/rendition/modules/107982173/disp/1dbc0a74bf64522e68a3db75a3d87b22.png) no-repeat 0 0; background-size:100%; text-indent:-999em; }
 .header_area .right { float:right }
 .header_area .mainmenu { float:left; margin:40px 0 0 0;  }
 .header_area .mainmenu li { float:left; margin:0 0 0 25px; }
