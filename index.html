@@ -1,310 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html xml:lang="en" lang="en">
 <head>
-<link href="tribhuvansuthar.css" rel="stylesheet" type="text/css">
+<title>Abstract Designs by Tribhuvan Suthar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- disable iPhone inital scale -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<!-- Web Font  -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Demonstration using Google Web Fonts to style heading elements." />
 <meta name="keywords" content="web fonts demo, web fonts example" />
 
-<link href="http://fonts.googleapis.com/css?family=Exo:400,400italic,700" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Iceland:400,400italic,700" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Nova Square:400,400italic,700" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="https://m1.behance.net/rendition/modules/109626813/disp/5be08aeef1eef05d55c2addd71fdef52.png" type="image/png">
-<!-- Tittle -->
-
-<title>Abstract Designs by Tribhuvan Suthar</title>
-<script type="text/ecmascript" src="jquery.js"></script>
-<script type="text/ecmascript" src="widgets.js"></script>
-<script type="text/ecmascript" src="jquery_004.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-
-//scroll	 
-		 
-$(function() {
-function filterPath(string) {
-return string
-.replace(/^\//,'')
-.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-.replace(/\/$/,'');
-}
-
-var locationPath = filterPath(location.pathname);
-var scrollElem = scrollableElement('html', 'body');
-
-// Any links with hash tags in them (can't do ^= because of fully qualified URL potential)
-$('a[href*=#]').each(function() {
-
-// Ensure it's a same-page link
-var thisPath = filterPath(this.pathname) || locationPath;
-if (  locationPath == thisPath
-&& (location.hostname == this.hostname || !this.hostname)
-&& this.hash.replace(/#/,'') ) {
-
-// Ensure target exists
-var $target = $(this.hash), target = this.hash;
-if (target) {
-
-// Find location of target
-var targetOffset = $target.offset().top;
-$(this).click(function(event) {
-
-// Prevent jump-down
-event.preventDefault();
-
-// Animate to target
-$(scrollElem).animate({scrollTop: targetOffset}, 800, function() {
-
-// Set hash in URL after animation successful
-location.hash = target;
-
-});
-});
-}
-}
-
-});
-
-// Use the first element that is "scrollable" (cross-browser fix?)
-function scrollableElement(els) {
-for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-var el = arguments[i],
-$scrollElement = $(el);
-if ($scrollElement.scrollTop()> 0) {
-return el;
-} else {
-$scrollElement.scrollTop(1);
-var isScrollable = $scrollElement.scrollTop()> 0;
-$scrollElement.scrollTop(0);
-if (isScrollable) {
-return el;
-}
-}
-}
-return [];
-}
-
-});
-
-});
-
-</script>
-<script>            
-	jQuery(document).ready(function() {
-		var offset = 220;
-		var duration = 500;
-		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > offset) {
-				jQuery('.back-to-top').fadeIn(duration);
-			} else {
-				jQuery('.back-to-top').fadeOut(duration);
-			}
-		});
-		
-		jQuery('.back-to-top').click(function(event) {
-			event.preventDefault();
-			jQuery('html, body').animate({scrollTop: 0}, duration);
-			return false;
-		})
-	});
-</script>
+<link rel="shortcut icon" href="https://m1.behance.net/rendition/modules/109626813/disp/5be08aeef1eef05d55c2addd71fdef52.png" type="image/x-icon" />
+<link href="tribhuvansuthar.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="javascript" src="jquery.js"></script>
+<script type="text/javascript" language="javascript" src="widgets.js"></script>
+<script type="text/javascript" language="javascript" src="jquery_004.js"></script>
+<script type="text/javascript" language="javascript" src="custom.js"></script>
+<script type="text/javascript" language="javascript" src="jquery1.js"></script>
 </head>
 <body>
-<!-- Header Navigation Bar -->
-	<div id="header">
-		<div class="inner">
-			<h1 class="brand" ><img height="80px" src="https://m1.behance.net/rendition/modules/107982173/disp/1dbc0a74bf64522e68a3db75a3d87b22.png"></h1>
-				<ul class="ulheader">
-				    <li><a class="headerlink" href="#header" title="PROFILE">PROFILE</a></li>
-				    <li><a class="headerlink" href="#SKILL" title="SKILL">SKILL</a></li>
-					<li><a class="headerlink" href="#PORTFOLIO" title="PORTFOLIO">PORTFOLIO</a></li>
-				    <li><a class="headerlink" href="#CONTACT" title="CONTACT">CONTACT</a></li>
-				</ul>		
-				</div>
-	</div>
-<!-- Profile -->
-	<div id="PROFILE">
-		<h2 class="char"><img class="" height="700px" src="https://m1.behance.net/rendition/modules/109597507/disp/bd0ef6a0a437f86c28573f590d2f770d.png"></h2>
-		<h1 class="intro">
-		hello I'm Tribhuvan Suthar
-		<br>
-		<span>& I'm a graphics & web designer</span></h1>
-		<h2 class="introH2">living/working in India. I love creating simple, beautiful and creative designs.</h2>
-	</div>
-<!-- My Skill -->
-	<div id="SKILL" class="skill" >
-	<div class="SkillMargin">
-		<h2 class="skillh2">MY SKILL</h2>
-			<ul class="indicator">
-				<li class="skillindicator">
-					<img src="https://m1.behance.net/rendition/modules/114674705/disp/c354b68d92f7fed146bcdcf7cbbfeb29.png" alt="" />
-				</li>
-				<li>
-					<img src="https://m1.behance.net/rendition/modules/114674635/disp/ad496b83c27875b84c6f2125c876a776.png" alt="" />
-				</li>
-				<li>
-					<img src="https://m1.behance.net/rendition/modules/114674639/disp/da2d5f1c9dcca090a1133c2fdefc750c.png" alt="" />
-				</li>
-				<li>
-					<img src="https://m1.behance.net/rendition/modules/114674637/disp/c5397b49322a2486aa67798efcfeb456.png" alt="" />
-				</li>
-			</ul>
-	</div>
-	</div>
-<!-- Portfolio -->
-	<div id="PORTFOLIO" class="Portfolio">
-		<h2 class="skillh2">PORTFOLIO</h2>
-			
-			
-		<ul class="PORT1">
-			
-			<li class="PortImages">
-				
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/19lU8Da">View on Behance</a></p>
-				</div>
-			
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597143/disp/8191397f54fe7426d22ea9cdd5255bd2.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/1plH6gM">View on Behance</a></p>
-				</div>
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597145/disp/dff9c747698a25bf17ca9d83e7ada75e.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/16DS5Za">View on Behance</a></p>
-				</div>
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597147/disp/9a4126cd1ec4898c01a176705b9948d9.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-			
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/19guMdR">View on Behance</a></p>
-				</div>
-			
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597149/disp/c1113bc6c0fff73b5bcbb31985fd5156.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-			
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="https://be.net/gallery/iBoy-icon-iOS7/11498751">View on Behance</a></p>
-				</div>
-			
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597151/disp/8f1a2b7ae0c0eae330ffc83611c479a0.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			
-		</ul>
-		
-		<ul class="PORT2">
-			
-			<li class="PortImages">
-				
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/1cdAegg">View on Behance</a></p>
-				</div>
-			
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597153/disp/75d43b67a79634110e8a2b99b5fb9255.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="">View on Behance</a></p>
-				</div>
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597155/disp/77bec34b6f54c2b2f6c02ffd063d61ec.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/12ANkyn">View on Behance</a></p>
-				</div>
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597157/disp/5dfb14a644f5ad01e00730c88ab2ab78.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			<li class="PortImages">
-			
-				<div class="ch-info" id="ch-in">
-						<h3>Demo</h3>
-							<p>Hover Effect <a href="http://bit.ly/1pakl27">View on Behance</a></p>
-				</div>
-			
-				<div class="shape">
-					<div class="base">
-						<img class="images" src="https://m1.behance.net/rendition/modules/109597159/disp/924368b0a91120b1b39f1293835c37d0.jpg" alt="" />
-					</div>
-				</div>	
-			</li>
-			
-		</ul>
-	</div>
-<!-- Contact -->
-	<div id="CONTACT" class="Contact">
-		<h2 class="Contacth2" >CONTACT</h2>
-			<h2 class="conh2">say hi by email:<a class="mail" href="mailto:tribhuvans123@gmail.com">tribhuvans123@gmail.com</a> </h2>
-			<h2 class="conh2">follow tribhuvan</h2>
-			<div class="icon">
-				<ul class="SocialIcon">
-							<li class="Social" id="FB">
-								<a class="sociallink" href="https://www.facebook.com/tribhuvan.suthar"><div class="F">
-								<h3 class="FFont">F</h3>
-								</div></a>
-							</li>
-							<li class="Social" id="BE">	
-								<a class="sociallink" href="http://www.behance.net/tribhuvans123e6e4"><div class="F">
-								<h3 class="FFont" id="Be">Be</h3>
-								</div></a>
-							</li>
-							<li class="Social" id="IN">	
-							<a class="sociallink" href="http://www.linkedin.com/"><div class="F">
-								<h3 class="FFont">in</h3>
-								</div></a>
-							</li>
-					</ul>
+<div id="wrapper">
+	<div id="header" class="header_area">
+		<div class="sub_wrapper cf">
+			<h1 class="logo"><a href="http://tribhuvansuthar.in/" title="Tribhuvan Suthar">Tribhuvan Suthar</a></h1>
+			<div class="right">
+				<ul class="mainmenu">
+					<li><a class="headerlink" href="#profile" title="PROFILE">Profile</a></li>
+					<li><a class="headerlink" href="#skill" title="SKILL">Skill</a></li>
+					<li><a class="headerlink" href="#portfolio" title="PORTFOLIO">Portfolio</a></li>
+					<li><a class="headerlink" href="#contact" title="CONTACT">Contact</a></li>
+				</ul>
 			</div>
 		</div>
-	<a href="#" class="back-to-top">TOP</a>
+	</div>
+
+	<div class="scene">
+		<div data-offset="10" class="airplan parallax"></div>
+		<div data-offset="30" class="balloon parallax"></div>
+		<div data-offset="90" class="clouds parallax"></div>
+		<div data-offset="30" class="trees parallax"></div>
+		<div data-offset="20" class="grass parallax"></div>
+		<div data-offset="50" class="buildings parallax"></div>
+		<div data-offset="10"  class="ground"></div>
+	</div>
+	<div id="profile" class="profile_area">
+		<div class="sub_wrapper cf">
+			<div class="character">
+				<img src="https://m1.behance.net/rendition/modules/109597507/disp/bd0ef6a0a437f86c28573f590d2f770d.png" title="" alt="" />
+			</div>
+			<div class="right">
+				<h2 class="title"> hello I'm Tribhuvan Suthar</h2>
+				<h2 class="sub_title">&amp; I'm a graphics &amp; web designer</h2>
+				<p class="content">living/working in India. I love creating simple, beautiful and creative designs.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="skill" class="skill_area">
+		<div class="sub_wrapper cf">
+			<h2 class="title">My Skill</h2>
+			<ul class="skill_list">
+				<li><img class="skillpower" src="https://m1.behance.net/rendition/modules/114674705/disp/c354b68d92f7fed146bcdcf7cbbfeb29.png" title="" alt="" /> </li>
+				<li><img class="skillpower" src="https://m1.behance.net/rendition/modules/114674635/disp/ad496b83c27875b84c6f2125c876a776.png" title="" alt="" /> </li>
+				<li><img class="skillpower" src="https://m1.behance.net/rendition/modules/114674639/disp/da2d5f1c9dcca090a1133c2fdefc750c.png" title="" alt="" /> </li>
+				<li><img class="skillpower" src="https://m1.behance.net/rendition/modules/114674637/disp/c5397b49322a2486aa67798efcfeb456.png" title="" alt="" /> </li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="portfolio" class="portfolio_area">
+		<div class="sub_wrapper cf">
+			<h2 class="title">Portfolio</h2>
+			<ul class="portfolio_list">
+				<li>
+					<div class="img_box"><img src="images/prod01.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/19lU8Da">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod02.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/1plH6gM">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod03.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/16DS5Za">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod04.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/19guMdR">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod05.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="https://be.net/gallery/iBoy-icon-iOS7/11498751">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod06.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/1cdAegg">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod07.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="#">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod08.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="#">View on Behance</a>
+					</div>
+				</li>
+				<li>
+					<div class="img_box"><img src="images/prod09.jpg" title="" alt="" /></div>
+					<div class="info">
+						<h2>The Project Title Goes here...</h2>
+						<p>Project Description</p>
+						<a href="http://bit.ly/1pakl27">View on Behance</a>
+					</div>
+				</li>
+			</ul>
+		</div>	
+	</div>
+	<div id="contact" class="contact_area">
+		<h2 class="title">Contact</h2>
+		<p class="email">say hi by email:<a class="mail" href="mailto:tribhuvans123@gmail.com">tribhuvans123@gmail.com</a></p>
+		<p class="email">follow tribhuvan</p>
+		<div class="icon cf">
+			<ul class="socialicons">
+				<li class="social" id="FB">
+					<a class="sociallink" href="https://www.facebook.com/tribhuvan.suthar">F</a>
+				</li>
+				<li class="social" id="BE">
+					<a class="sociallink" href="https://www.facebook.com/tribhuvan.suthar">Be</a>
+				</li>
+				<li class="social" id="in">
+					<a class="sociallink" href="https://www.facebook.com/tribhuvan.suthar">in</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<a href="#" class="back-to-top">TOP</a>
 </body>
 </html>
