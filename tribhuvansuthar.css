@@ -74,7 +74,7 @@ body { background-image: url(../images/Untitled-2.png); background-position: cen
 .portfolio_area .portfolio_list li { width:250px; height:250px; position:relative; display:inline-block; overflow:hidden; margin:20px; border-radius:100%; -webkit-box-shadow: -6px -8px 10px #F8A50E, -4px 7px 10px #BFF80E, 6px -4px 10px #0ED6F8; -moz-box-shadow: -6px -8px 10px #F8A50E, -4px 7px 10px #BFF80E, 6px -4px 10px #0ED6F8; box-shadow: -6px -8px 10px #F8A50E, -4px 7px 10px #BFF80E, 6px -4px 10px #0ED6F8; }
 .portfolio_area .portfolio_list li .img_box { width:100%; height:100%; float:left; }
 .portfolio_area .portfolio_list li .img_box img { width:100%; float:left; }
-.portfolio_area .portfolio_list li .info { display:none; width:190px; height:190px; padding:30px; float:left; background:url(../images/trans_bg.png) repeat 0 0; position:absolute; top:0; left:0; }
+.portfolio_area .portfolio_list li .info { display:none; width:190px; height:190px; padding:30px; float:left; background:url(https://m1.behance.net/rendition/modules/115726077/disp/a6823e51490928fe076fffa8170fe19a.png) repeat 0 0; position:absolute; top:0; left:0; }
 .portfolio_area .portfolio_list li .info h2 { width:100%; height:97px; overflow:hidden; float:left; font-size:22px; line-height:26px; text-align:center; padding:5px 0; border-bottom:1px solid #ffffff; margin:0 0 10px 0; }
 .portfolio_area .portfolio_list li .info p { float:left; font-size:15px; font-style:italic; height:50px; line-height:16px;  margin:0 0 10px; overflow:hidden; text-align:center; width:100%; }
 .portfolio_area .portfolio_list li .info a { width:100%; font-size:11px; letter-spacing:2px; float:left; text-transform:uppercase; text-align:center; color:#ffffff; text-decoration:none; }
@@ -97,12 +97,12 @@ body { background-image: url(../images/Untitled-2.png); background-position: cen
 .scene { width:100%; float:left; position:relative; overflow:hidden; right:0; border-bottom:100px solid #342a2a; height:550px; }
 .scene > div { position:absolute; bottom:0; }
 .ground { width:100%; height:30px; background:#1d1818; z-index:999; }
-.scene > div.airplan { width:115px; left:50%; margin-left:150px; height:27px; bottom:500px; background:url(../images/6.png) no-repeat center; }
-.scene > div.balloon { width:485px; left:50%; margin-left:-120px; height:145px; bottom:300px; background:url(../images/5.png) no-repeat center; }
-.scene > div.clouds { width:895px; left:50%; margin-left:-447px; height:253px; bottom:250px; background:url(../images/1.png) no-repeat center; }
-.scene div.trees { width:908px; height:174px; background:url(../images/2.png) no-repeat center; z-index:100; left:50%; bottom:20px; margin-left:-454px; }
-.scene div.grass { width:964px; height:37px; z-index:200; left:50%; bottom:20px; margin-left:-482px; background:url(../images/3.png) no-repeat center; }
-.buildings { width:763px; height:303px; left:50%; margin-left:-400px; background:url(../images/4.png) no-repeat center; }
+.scene > div.airplan { width:115px; left:50%; margin-left:150px; height:27px; bottom:500px; background:url(https://m1.behance.net/rendition/modules/115724663/disp/8dd4178c9ac29c3282040561f4b5f88e.png) no-repeat center; }
+.scene > div.balloon { width:485px; left:50%; margin-left:-120px; height:145px; bottom:300px; background:url(https://m1.behance.net/rendition/modules/115724661/disp/31c5efb24d9d58ef9de79ab3af29b5b9.png) no-repeat center; }
+.scene > div.clouds { width:895px; left:50%; margin-left:-447px; height:253px; bottom:250px; background:url(https://m1.behance.net/rendition/modules/115724653/disp/2a9b95b8af831197186f9deb1fdb0723.png) no-repeat center; }
+.scene div.trees { width:908px; height:174px; background:url(https://m1.behance.net/rendition/modules/115724655/disp/c6b76cf2d441eba5ae13b91d0398afc4.png) no-repeat center; z-index:100; left:50%; bottom:20px; margin-left:-454px; }
+.scene div.grass { width:964px; height:37px; z-index:200; left:50%; bottom:20px; margin-left:-482px; background:url(https://m1.behance.net/rendition/modules/115724657/disp/5014ead2432ea5277d1c51b04f68083d.png) no-repeat center; }
+.buildings { width:763px; height:303px; left:50%; margin-left:-400px; background:url(https://m1.behance.net/rendition/modules/115724659/disp/bcb9e4fc1cb3cfd1b2c55c9229675f48.png) no-repeat center; }
 
 
 
