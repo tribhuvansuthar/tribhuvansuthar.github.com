@@ -1,2 +1,2 @@
-tribhuvansuthar.github.com
-==========================
+tribhuvansuthar.github.io
+=========================
