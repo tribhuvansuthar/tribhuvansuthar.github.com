@@ -74,6 +74,8 @@ h6 {
     color: #D4AF37;
 }
 #trop{margin-top: -100px; }
+.con{
+width: 30%;}
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -735,6 +737,7 @@ Work Thumbnails
 	background-color: #131313;
 	display: inline-block;
 }
+
 .cd-container-people-clmn-1 img {
 	width: 100%;
 }
@@ -783,6 +786,30 @@ Work Thumbnails
 	height: 24.4rem;
 	float: right;
 	background-color: #131313;
+	padding: 40px;
+	display: inline-block;
+}
+.cd-container-blog-clmn-21 {
+	width: 50%;
+/*	height: 24.4rem;*/
+/*	float: LEFT;*/
+	background-color: #212121;
+	padding: 40px;
+	display: inline-block;
+}
+.cd-container-blog-clmn-22 {
+	width: 50%;
+/*	height: 24.4rem;*/
+	float: right;
+	background-color: #212121;
+	padding: 40px;
+	display: inline-block;
+}
+.cd-container-blog-clmn-23 {
+	width: 50%;
+/*	height: 24.4rem;*/
+	
+	background-color: #212121;
 	padding: 40px;
 	display: inline-block;
 }
@@ -836,16 +863,17 @@ Work Thumbnails
 	width: 100%;
 }
 .cd-container-contact img {
-	width: 100%;
-	margin-top: 3rem;
+/*	width: 100%;*/
+/*	margin-top: 3rem;*/
+    margin-right: 15px;
 }
 .contact-1 {
-	width: 49%;
+	
 	display: inline-block;
 	vertical-align: top;
 }
 .contact-2 {
-	width: 49%;
+	
 	display: inline-block;
 }
 .contact-clmn-content {
@@ -855,7 +883,9 @@ Work Thumbnails
 .contact-clmn-content h4 {
 	font-weight: 700;
 }
-
+#mailid{
+margin-left: -30px;
+}
 @media all and (min-width: 320px) and (max-width: 780px) {
 	.cd-container-clmn-1 {
 		width: 100%;
@@ -899,6 +929,13 @@ Work Thumbnails
 	.cd-container-blog-clmn-2 {
 		width: 100%;
 	}
+    .cd-container-blog-clmn-21 {
+		width: 100%;
+	}
+    .cd-container-blog-clmn-22 {
+		width: 100%;
+	}
+    
 	.cd-container-blog-read-posts {
 		padding-bottom: 2rem;
 	}
@@ -912,6 +949,7 @@ Work Thumbnails
 		padding: 0rem;
 		padding-top: 2rem;
 	}
+    
 }
 
 
@@ -1563,7 +1601,7 @@ Contact Page Style
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  background-color: #f9f9f9;
+  background-color: #212121;;
 }
 
 .cd-container-contact {
@@ -1748,6 +1786,7 @@ Footer Style
   color: rgb(212,175,55);
 }
 .footer-clmn2 {
+        MARGIN-TOP: -12PX;
   width: 50%;
   float: right;
   text-align: right;
@@ -1764,7 +1803,17 @@ Footer Style
 		width: 100%;
 		text-align: left;
 		margin-top: 1rem;
-	}	
+	}
+    .social-icons {
+		width: 100%;
+		text-align: left;
+		margin-top: 1rem;
+	}
+    .pull-right{
+		width: 100%;
+		text-align: left;
+		margin-top: 1rem;
+	}
 }
 
 
