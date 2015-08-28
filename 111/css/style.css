@@ -452,6 +452,7 @@ html, body {
 	}
 }
 
+
 /* -------------------------------- 
 
 The .cd-intro change the background image
@@ -1815,7 +1816,11 @@ Footer Style
 		margin-top: 1rem;
 	}
 }
-
+@media (max-width: 480px) {
+    .footer{
+    height: 135px;
+    }
+}
 
 /* -------------------------------- 
 
