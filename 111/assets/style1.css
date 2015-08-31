@@ -78,7 +78,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
-.highlight-info .overlay{background: rgba(33,171,202,0.5);}
+.highlight-info .overlay{background: rgba(0, 0, 0, 0.7);}
 .highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
 /*about us*/
 

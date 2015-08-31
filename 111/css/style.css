@@ -834,6 +834,13 @@ Work Thumbnails
 	padding: 15px 5px 15px 5px;
 	color: rgba(162, 162, 162, 0.7);
 }
+.read-more-btn-small1 {
+	width: 8rem;
+	margin: 0 auto;
+	border: rgba(212, 175, 55, 0.7) solid 1px;
+	padding: 15px 5px 15px 5px;
+	color: rgb(212, 175, 55);
+}
 .read-more-btn-small:hover {
 	border: rgb(212,175,55) solid 1px;
 	color: rgb(212,175,55); 
