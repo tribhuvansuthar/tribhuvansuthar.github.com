@@ -127,6 +127,7 @@ html, body {
   z-index: 3;
  
 }
+#navbar-header{padding: 15px 15px;}
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
