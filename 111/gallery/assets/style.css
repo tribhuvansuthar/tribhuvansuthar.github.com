@@ -1,4 +1,8 @@
-body {	color:#666;	font:300 15px/15px 'Open Sans', serif;background-color:#131313;-webkit-font-smoothing:antialiased;}
+body {	color:#666;
+    font-family: 'Open Sans', sans-serif;
+    font:300 15px/15px;
+    background-color:#131313;
+    }
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -64,7 +68,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .carousel-indicators{bottom: 0;}
 
 /*works*/
-#works{padding-top:6em;}
+/*#works{padding-top:6em;}*/
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
 /*works*/
@@ -96,9 +100,31 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 /*contact*/
 
 
-.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
+/*.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}*/
 .footer a{color: #aaa;margin: 0 1em; }
 
+.footer {width: 100%;
+    height: 100px;
+    background-color: #212121;
+}
+.footer-content {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding: 40px 10px 0px 10px;}
+.footer-clmn1 {
+    width: 50%;
+    float: left;}
+.footer-clmn2 {
+    MARGIN-TOP: -12PX;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
 .gototop i{line-height: 0.5em;}
 
