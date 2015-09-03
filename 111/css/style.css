@@ -127,7 +127,9 @@ html, body {
   z-index: 3;
  
 }
-#navbar-header{padding: 15px 15px;}
+
+/*    #navbar-header{padding: 15px 15px;}*/
+
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
@@ -189,6 +191,7 @@ html, body {
   display: block;
 }
 @media only screen and (min-width: 768px) {
+    #navbar-header{padding: 15px 15px;}
   .cd-logo {
     left: 2.6em;
   }
@@ -1525,8 +1528,11 @@ Blog Post Style
 	border: rgb(212,175,55) solid 1px;
 	color: rgb(212,175,55); 
 }
+@media  (min-width: 320px){
 
+}
 @media all and (min-width: 320px) and (max-width: 780px) {
+    
 	.cd-container-project {
 		padding: 1rem;
 	}
@@ -1805,6 +1811,10 @@ Footer Style
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
+    li {
+    float: left;
+    width: 71px;
+    }
 	.footer-clmn1 {
 		width: 100%;
 	}

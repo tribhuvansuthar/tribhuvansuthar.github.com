@@ -118,10 +118,11 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
     float: left;}
 .footer-clmn2 {
     MARGIN-TOP: -12PX;
-    width: 50%;
+    width: 100%;
     float: right;
     text-align: right;
 }
+
 a {
     text-decoration: none;
 }
@@ -130,6 +131,7 @@ a {
 
 
 @media (max-width: 1200px) {
+    #navbar-header{padding: 15px 15px;}
 	body{font:300 13px/13px Roboto,Arial,Helvetica;}
 	.navbar-brand{padding-top: 11px;}
 	.process ul li{margin:0 0.5em; }
@@ -142,6 +144,7 @@ a {
 }
 
 @media (max-width: 900px) {
+    
 	h1{font: 700 3.5em Roboto,Arial,Helvetica;}
 	h4 {font: 300 1.3em Roboto,Arial,Helvetica;}
 	.btn{padding: 1em 2em;}
@@ -155,6 +158,7 @@ a {
 
 
 @media (max-width: 767px) {
+    #navbar-header{padding: 15px 15px;}
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 	.navbar-nav > li > a {line-height: 1em;}	
 	.navbar-brand{padding: 7px;}
