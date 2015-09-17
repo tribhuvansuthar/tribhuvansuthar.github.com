@@ -70,6 +70,9 @@ h5 {
 h6 {
 	font-size: 0.7rem;
 }
+.for{
+    margin-top: 10px;
+}
 .more{
     color: #D4AF37;
 }
@@ -455,7 +458,9 @@ html, body {
 	  color: rgb(212,175,55);
 	}
 }
-
+@media all and (min-width: 320px) and (max-width: 780px) {
+    
+}
 
 /* -------------------------------- 
 
