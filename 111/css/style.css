@@ -1816,9 +1816,13 @@ Footer Style
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
+    .nav-pills li{
+        width: 24%;
+    }
     li {
-    float: left;
-    width: 71px;
+/*    float: left;*/
+    width: 100%;
+        text-align: center
     }
 	.footer-clmn1 {
 		width: 100%;
@@ -1841,7 +1845,7 @@ Footer Style
 }
 @media (max-width: 480px) {
     .footer{
-    height: 135px;
+    height: 150px;
     }
 }
 
