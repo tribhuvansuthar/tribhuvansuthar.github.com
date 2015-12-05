@@ -1,171 +1,441 @@
 <!DOCTYPE html>
-<html xml:lang="en" lang="en">
-<head>
-<title>Abstract Designs by Tribhuvan Suthar</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+          
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="A free Bootstrap powerd HTML template exclusively crafted for the super lazy designers like me who designed thousand of websites till today but never got a chance to build one himself.">
+    <meta name="keywords" content="Free Portfolio Template, Free Template, Free Bootstrap Template, Dribbble Portfolio Template, Free HTML5 Template">
+    <meta name="author" content="EvenFly Team">
+    
+    <!-- DEVEOPER'S NOTE:
+    This is a free Bootstrap powered HTML template from EvenFly. Feel free to download, modify and use it for yourself or your clients as long there is no money involved.
+    
+    Please don't try to sale it from anywhere; because I want it to be free, forever. If you sale it, That's me who deserves the money, not you :)
+    -->
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Demonstration using Google Web Fonts to style heading elements." />
-<meta name="keywords" content="web fonts demo, web fonts example" />
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Trix web</title><!-- This is what you see on your browser tab-->
+    
+    <!-- ===========================
+    FAVICONS
+    =========================== 
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+     
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+      
+    <!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="css/tribhuvansuthar.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
-<script type="text/javascript" language="javascript" src="js/widgets.js"></script>
-<script type="text/javascript" language="javascript" src="js/jquery_004.js"></script>
-<script type="text/javascript" language="javascript" src="js/custom.js"></script>
-<script type="text/javascript" language="javascript" src="js/jquery1.js"></script>
-</head>
-<body>
-<div id="wrapper">
-	<div id="header" class="header_area">
-		<div class="sub_wrapper cf">
-			<h1 class="logo"><a href="http://tribhuvansuthar.in/" title="Tribhuvan Suthar">Tribhuvan Suthar</a></h1>
-			<div class="right">
-				<ul class="mainmenu">
-					<li><a class="headerlink" href="#profile" title="PROFILE">Profile</a></li>
-					<li><a class="headerlink" href="#skill" title="SKILL">Skill</a></li>
-					<li><a class="headerlink" href="#portfolio" title="PORTFOLIO">Portfolio</a></li>
-					<li><a class="headerlink" href="#contact" title="CONTACT">Contact</a></li>
-                    <li><a class="headerlink" href="111/index.html" title="Knack">KNACK</a></li>
-                    <li><a class="headerlink" href="sachin/index.html" title="Knack">SACHIN</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="assets/animate/set.css" />
 
-	<div class="scene">
-		<div data-offset="10" class="airplan parallax"></div>
-		<div data-offset="30" class="balloon parallax"></div>
-		<div data-offset="90" class="clouds parallax"></div>
-		<div data-offset="30" class="trees parallax"></div>
-		<div data-offset="20" class="grass parallax"></div>
-		<div data-offset="50" class="buildings parallax"></div>
-		<div data-offset="10"  class="ground"></div>
-	</div>
-	<div id="profile" class="profile_area">
-		<div class="sub_wrapper cf">
-			<div class="character">
-				<img src="images/cartoon.jpeg" title="" alt="" />
-			</div>
-			<div class="right">
-				<h2 class="title"> hello I'm Tribhuvan Suthar</h2>
-				<h2 class="sub_title">&amp; I'm a graphics &amp; web designer</h2>
-				<p class="content">living/working in India. I love creating simple, beautiful and creative designs.</p>
-			</div>
-		</div>
-	</div>
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+      
+      
+    <!-- ===========================
+    ICONS: 
+    =========================== -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">    
+    
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
 
-	<div id="skill" class="skill_area">
-		<div class="sub_wrapper cf">
-			<h2 class="title">My Skill</h2>
-			<ul class="skill_list">
-				<li><img class="skillpower" src="images/PS.png" title="" alt="" /> </li>
-				<li><img class="skillpower" src="images/Ai.png" title="" alt="" /> </li>
-				<li><img class="skillpower" src="images/HTML.png" title="" alt="" /> </li>
-				<li><img class="skillpower" src="images/CSS.png" title="" alt="" /> </li>
-			</ul>
-		</div>
-	</div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  <!-- ===========================
+   GOOGLE ANALYTICS (Optional)
+   =========================== -->
+    
+    <!--Replace this line with your analytics code-->
+     
+    <!-- Analytics end-->
+  
+   </head>
+    <body data-spy="scroll">
+        <!-- Preloader -->
+        <!-- Preloader -->
+        <div id="preloader">           
+            <div id="status">
+                <div class="loadicon icon- wow swing infinite" data-wow-duration="8s"> <img src="fonts/kiwi.svg"></div>
+            </div>
+        </div>
+        
+       <header>               
+        <!-- ===========================
+        HERO AREA
+        =========================== -->
+        <div id="hero">          
+            <div class="container herocontent">               
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Hi!</h2>                
+                <h3 class="wow fadeInUp" data-wow-duration="3s" id="color">I am a web designer and I can provide you with design solutions, specializing in iOS/Web.</h3>            
+            </div>
+            
+                <!-- Featured image on the Hero area -->
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero-img.png" alt="Featured Work">         
+        </div><!--HERO AREA END-->   
+        <!-- ===========================
+         NAVBAR START
+         =========================== -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+               <div class="container">
+                   
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        
+                           <a class="navbar-brand" href="#hero">
+                            <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
+<!--                            <span class="brandicon icon-grid"> </span>-->
+                               <span class="brandicon"> <img height="20px" src="fonts/nevigationicon.svg"> </span>
+                            <span class="brandname">Tribhuvan Suthar</span>
+                        </a>
+                    </div>
 
-	<div id="portfolio" class="portfolio_area">
-		<div class="sub_wrapper cf">
-			<h2 class="title">Portfolio</h2>
-			<ul class="portfolio_list">
-				<li>
-					<div class="img_box"><img src="images/prod01.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/19lU8Da">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod02.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/1plH6gM">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod03.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/16DS5Za">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod04.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/19guMdR">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod05.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="https://be.net/gallery/iBoy-icon-iOS7/11498751">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod06.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/1cdAegg">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod07.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="#">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod08.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="#">View on Behance</a>
-					</div>
-				</li>
-				<li>
-					<div class="img_box"><img src="images/prod09.jpg" title="" alt="" /></div>
-					<div class="info">
-						<h2>The Project Title Goes here...</h2>
-						<p>Project Description</p>
-						<a href="http://bit.ly/1pakl27">View on Behance</a>
-					</div>
-				</li>
-			</ul>
-		</div>	
-	</div>
-	<div id="contact" class="contact_area">
-		<h2 class="title">Contact</h2>
-		<p class="email">say hi by email:<a class="mail" href="mailto:tribhuvans123@gmail.com">tribhuvans123@gmail.com</a></p>
-		<p class="email">follow tribhuvan</p>
-		<div class="icon cf">
-			<ul class="socialicons">
-				<li class="social" id="FB">
-					<a class="sociallink" href="https://www.facebook.com/tribhuvan.suthar">F</a>
-				</li>
-				<li class="social" id="BE">
-					<a class="sociallink" href="https://www.behance.net/tribhuvans123e6e4">Be</a>
-				</li>
-				<li class="social" id="in">
-					<a class="sociallink" href="http://in.linkedin.com/pub/tribhuvan-suthar/4b/728/9b1">in</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Services</a></li>
+                        <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
+                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Testimonials</a></li>
+                        
+                        <!--don't forget to replace my email address below with yours-->
+                        <li><a href="mailto:m@creatrix.us"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                        <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                    </ul>
+                
+                </div><!--.nav-collapse -->
+            </div>
+        </nav><!--navbar end-->        
+     </header><!--header end-->     
+
+    <!-- ===========================
+    FEATURED CLIENTS SECTION START
+    =========================== -->
+     <div id="clients">
+         <div class="container">
+             <div class="col-md-3">
+                 <h4>Proudly worked with:</h4>
+             </div>
+             <div class="col-md-9">
+                 <ul><!--CLIENTS LOGO-->
+                     <li><img src="img/payoneer1.png" alt="Payoneer"></li>
+                     <li><img src="img/starline.png" alt="Amazon"></li>
+<!--
+                     <li><img src="img/payoneer.png" alt="Elance-oDesk"></li>
+                     <li><img src="img/elance-odesk.png" alt="Curb Envy"></li>                     
+-->
+                 </ul><!--CLIENTS LOGO END-->
+             </div>
+         </div>
+         <hr><!-- SECTION SEPARETOR LINE -->
+     </div><!--FEATURED CLIENTS SECTION END-->
+     
+
+    <!-- ===========================
+    ABOUT SECTION START
+    =========================== -->
+     <div id="about" class="container">
+        
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6">
+            <div class="row">
+             <h2 class="wow fadeInDown" data-wow-duration="2s">Hello there!</h2>
+
+             <h4 class="wow fadeInUp" data-wow-duration="3s">I am Tribhuvan. I am a UI/Graphic Designer based out of Mumbai, India. I create website designs using Photoshop and also create Brand Identity for different brands. I also love creating abstract designs, particularly for the web.</h4>
+             
+             <p class="wow fadeInDown" data-wow-duration="3s">I am also passionate about photography, travelling, reading and electro music.</p>
+             <p class="wow fadeInDown" data-wow-duration="3s">Find this cool? Give me a buzz and the coffee’s on me.</p>
+             
+             
+             </div> <!-- ABOUT INFO END -->
+             <!--Replace the URL below with your dribbble profile URL-->
+        <a class="btn btn-default wow fadeInUp" href="http://dribbble.com/tsuthar" role="button">
+            <span class="brandicon"> <img height="30px" src="dribbble.svg"> </span>
+            <span class="button_text">Dribbble</span> 
+        </a> 
+             <a class="btn btn-default wow fadeInUp" href="http://behance.net/tribhuvans123e6e4" role="button">
+            <span class="brandicon"> <img height="35px" src="behance.svg"> </span>
+            <span class="button_text">Behance</span>
+        </a> 
+            
+            <div class="myapps row">
+                <h5>Tools and apps I use everyday:</h5>
+                
+                <ul><!-- FAVORITE APP ICONS START -->
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/PhotoshopCC.png" alt="Photoshop"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/IllustratorCC.png" alt="Illustrator"></li>
+                </ul><!-- FAVORITE APP ICONS END -->
+            </div>
+         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        <!--Left part end-->
+         
+         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="2s">
+             <img src="img/user1.png" alt="Mamun Srizon">
+         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+     </div><!-- ABOUT SECTION END -->
+        
+    <hr class="line"><!-- SECTION SEPARETOR LINE -->
+        
+    <!-- ===========================
+    SERVICE SECTION START
+    =========================== -->
+    <div id="services" class="container">
+       
+        <!-- SERVICE SECTION HEADING START -->
+        <div class="sectionhead  row wow fadeInUp">
+            <span class="bigicon icon-cup "></span>
+            <h3>This is what I can do for you</h3>
+            <hr class="separetor">
+         </div><!--SERVICE SECTION HEADING END-->
+         
+        <!-- SERVICE ITEMS START -->
+        <div class="row">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img class="iconset" src="img/icon/ios.png" alt="">
+                   <h4>iOS App Design</h4>
+                   <p>With millions of apps for Apple, yours needs to stand out. Exhibit your awesomeness with some awesome app designs for your awesome apps</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img class="iconset" src="img/icon/web.png" alt="">
+                    <h4>Responsive Web Design</h4>
+                   <p>Today's is a fast paced world and in this world, your audience isn't sitting in front of a computer anymore. Let the web trickle down to portable and wearable devices.</p>
+                </div> <!-- ITEM END -->
+
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img class="iconset" src="img/icon/Android.png" alt="">
+                   <h4>Android App Design</h4>
+                   <p>Create buzz in the world of Google, with designs every body loves</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img class="iconset" src="img/icon/brand.png" alt="">
+                   <h4>Brand Identity Design</h4>
+                   <p> Every brand is unique, like a person. Build a strong brand personality and attitude that exactly showcases your brand the way you'd love to.</p>
+                </div> <!-- ITEM END -->
+
+        </div><!-- SERVICE ITEMS END-->
+    </div><!-- SERVICE SECTION END -->
+    
+    <!-- ===========================
+    PORTFOLIO SECTION START
+    =========================== -->
+    <div id="portfolio">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+          <span class="bigicon icon-rocket"></span>
+           <h3>Some of my humble, yet awesome, works.</h3>
+           <hr class="separetor">            
+        </div><!-- PORTFOLIO SECTION HEAD END -->   
+        
+        <!-- PORTFOLIO ITEMS START -->
+        <div class="portfolioitems container">
+            <ul><div id="shotsByPlayerId"> </div></ul><!--REFER TO THE js/drifolio.js-->
+        </div><!-- PORTFOLIO ITEMS END -->
+        
+        
+        <!-- works -->
+<div id="works"  class=" clearfix grid"> 
+    
+     <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/1.jpg" alt="img01"/>
+        <figcaption>
+            <h2>iOS Icon</h2>
+            <p>iOS icon design set<br>
+            <a href="https://www.behance.net/gallery/22875833/iOS-iCON-" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInU1p">
+        <img src="images/portfolio/2.jpg" alt="img01"/>
+        <figcaption>
+            <h2>iOS App</h2>
+            <p>Redesign dribbble app for ios <br>
+            <a href="https://www.behance.net/gallery/22670035/Redesign-Dribbble-iOS-8-App" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/3.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Charactor</h2>
+            <p>Game charactor Design<br>
+            <a href="https://www.behance.net/gallery/22667517/GIANT-CHARACTOR-" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/4.jpg" alt="img01"/>
+        <figcaption>
+            <h2>iOS Icon</h2>
+            <p>iOS icon design set<br>
+            <a href="https://www.behance.net/gallery/19907407/iOS-ICON-COLLECTION" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/5.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Wallpaper</h2>
+            <p>Wallpaper design for macbook pro/ air<br>
+            <a href="https://www.behance.net/gallery/17517563/WAR-OF-OCEAN" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/6.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Branding</h2>
+            <p>Startline Infotech brand identity design<br>
+            <a href="https://www.behance.net/gallery/23480071/STARLINEINFOTECH-BRANDING-" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/7.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Wallpaper</h2>
+            <p>Wallpaper design for ipad<br>
+            <a href="https://www.behance.net/gallery/12373993/Flowry-Girl" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/8.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Girl Cartoon</h2>
+            <p>Girl cartoon charactor design<br>
+            <a href="https://www.behance.net/gallery/22825485/GIRL-CARTOON-CHARACTER" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp1">
+        <img src="images/portfolio/9.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Wallpaper</h2>
+            <p>Tribhuvan wallpaper for macbook pro<br>
+            <a href="https://www.behance.net/gallery/5612835/Super-Cool-Frilly-Bits-Typography" title="1" data-gallery>View On Behance</a></p>            
+        </figcaption>
+    </figure>
+
+     
 </div>
-<a href="#" class="back-to-top">TOP</a>
-</body>
+<!-- works -->
+        
+        <!--Replace the URL below with your dribbble profile URL-->
+        <a class="btn btn-default wow fadeInUp" href="https://www.behance.net/tribhuvans123e6e4" role="button">
+<!--            <span class="btnicon icon-social-dribbble"></span>-->
+            <span class="button_text">View all items</span>
+        </a> 
+    </div><!-- PORTFOLIO SECTION END -->
+
+    <!-- ===========================
+    TESTIMONIAL SECTION START
+    =========================== -->
+    <div id="testimonials" class="container">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+           <span class="bigicon icon-bubbles"></span>
+           <h3>What my valuable clients say </h3>
+           <h4></h4>
+           <hr class="separetor">            
+        </div><!-- TESTIMONIAL SECTIONHEAD END -->
+        
+        <!-- TESTIMONIAL ITEMS START -->
+        <div class="row">
+            <!-- 1ST TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceInUp" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/s1.png" alt="Dan">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>This website pertains to the logic of simplicity never fading out of fashion. The design base is neat and sleek that lends it a classy look. The Graphics are great and crisp in character. Less is certainly more.</p>                        
+                    </blockquote>
+                    <h5>Zonal - NASA 2015</h5>
+                    <p>Knack FOAP J.U.</p>
+                </div>                
+            </div><!-- 1ST TESTIMONIAL ITEM END -->
+            
+            
+            
+            
+            
+           
+        </div>        
+    </div><!-- TESTIMONIAL SECTION END -->
+       
+    <!-- ===========================
+    FOOTER START
+    =========================== -->    
+    <footer>
+        <div class="container">
+            <span><img height="20px" src="fonts/nevigationicon-footer.svg"></span>
+             
+            <!-- FOOTER LINKS END -->
+             
+            <div class="copyright"><!-- FOOTER COPYRIGHT START -->
+                <p>Connect with me</p>
+            </div><!-- FOOTER COPYRIGHT END -->
+             
+            <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->
+                <ul>
+                    <li><a class="btn btn-default1 wow fadeInUp" href="https://www.facebook.com/tribhuvan.suthar" role="button">
+            <span class="brandicon"> <img height="35px" src="img/icon/facebook-01.svg"> </span>
+            <span class="button_text">Facebook</span>
+        </a> </li>
+                    <li><a class="btn btn-default1 wow fadeInUp" href="https://www.behance.net/tribhuvans123e6e4" role="button">
+            <span class="brandicon"> <img height="35px" src="img/icon/behnce-01.svg"> </span>
+            <span class="button_text">Behance</span>
+        </a> </li>
+                    <li><a class="btn btn-default1 wow fadeInUp" href="http://dribbble.com/tsuthar" role="button">
+            <span class="brandicon"> <img height="35px" src="img/icon/dribble-01.svg"> </span>
+            <span class="button_text">Dribbble</span>
+        </a> </li>
+                    <li><a class="btn btn-default1 wow fadeInUp" href="https://in.linkedin.com/in/tribhuvan-suthar-9b17284b" role="button">
+            <span class="brandicon"> <img height="35px" src="img/icon/linkedin-01.svg"> </span>
+            <span class="button_text">LinkedIn</span>
+        </a> </li>
+                 
+                 </ul>
+             </div><!-- FOOTER SOCIAL ICONS END -->
+         </div>
+     </footer><!-- FOOTER END -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-latest.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!--Other necessary scripts-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>    
+  </body>
 </html>
