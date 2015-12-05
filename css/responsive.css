@@ -72,6 +72,7 @@
     #hero{height: 500px;}    
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
+    .herocontent{padding-top: 100px;}
 }
 
 /* Smallest Mobile Devices */
