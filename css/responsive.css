@@ -1,7 +1,15 @@
 /* Medium Devices, Desktops */
+@media only screen and (max-width : 1280px) {    
+    /*HREO AREA */
+    #hero{max-height: 780px; background: url(../img/trianglify-background7.jpg)no-repeat;}    
+    
+    /* FEATURED CLIENTS SECTION*/
+    #clients img{height: 50px;}
+}
+/* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {    
     /*HREO AREA */
-    #hero{max-height: 660px;}    
+    #hero{max-height: 660px; background: url(../img/trianglify-background6.jpg)no-repeat;}    
     
     /* FEATURED CLIENTS SECTION*/
     #clients img{height: 50px;}
@@ -11,7 +19,7 @@
 @media only screen and (max-width : 980px) {
     
     /*HREO AREA */
-    #hero{height: 540px;}
+    #hero{height: 540px; background: url(../img/trianglify-background5.jpg)no-repeat;}
     
     /*ABOUT SECTION*/
     #about{padding-top: 40px;}
@@ -54,7 +62,7 @@
 
     
     /*Hero area*/
-    #hero{height: 400px;}    
+    #hero{height: 500px; background: url(../img/trianglify-background4.jpg)no-repeat;}    
     .herocontent{padding-top: 30px;}
     
     /*About section*/
@@ -69,7 +77,8 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 500px;}    
+    #hero{height: 500px; background: url(../img/trianglify-background3.jpg)no-repeat;}
+    
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
     .herocontent{padding-top: 100px;}
@@ -78,7 +87,8 @@
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
     
-    #hero{height: 500px;}
+    #hero{height: 500px; background: url(../img/trianglify-background2.jpg)no-repeat;}
+    background: url(../img/trianglify-background2.jpg)no-repeat;
     .herocontent{padding-top: 100px; padding-bottom: 30px;}
 
 }
