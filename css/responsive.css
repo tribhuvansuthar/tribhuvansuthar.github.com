@@ -77,7 +77,9 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 500px; background: url(../img/trianglify-background3.jpg)no-repeat;}
+    #hero{height: ; 
+        background-image: url("../img/trianglify-background8.jpg"); background-size: 500px}
+/*    background: url(../img/trianglify-background3.jpg)no-repeat;}*/
     
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
