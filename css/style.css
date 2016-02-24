@@ -17,7 +17,7 @@ body {
 
 .bigicon {font-size: 3em;}
 h2{font-size: 42px; color: #00CAFF;}
-h3{font-size: 28px; color: #00CAFF;}
+h3{font-size: 22px; color: #00CAFF;letter-spacing: 1px;}
 h4{font-size: 18px; line-height: 1.4em; color:  #797979;}
 H5{color:  #c3c3c3;}
 p{
@@ -89,7 +89,7 @@ HERO AREA
 ================================*/
 #hero{
     color: #fff;
-    text-align: center;
+    text-align: left;
     height: 730px;
     background: url(../img/trianglify-background.jpg)no-repeat; /*your background image*/
     max-height: 880px;
@@ -97,7 +97,8 @@ HERO AREA
 }
 
 .herocontent{
-    padding-top: 100px;
+    padding-left: 200px;
+    padding-top: 350px;
     width: 100%;
     max-width: 900px;
 }

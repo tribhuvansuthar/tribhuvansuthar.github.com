@@ -63,7 +63,8 @@
     
     /*Hero area*/
     #hero{height: 500px; background: url(../img/trianglify-background4.jpg)no-repeat;}    
-    .herocontent{padding-top: 30px;}
+    .herocontent{padding-left: 200px;
+    padding-top: 300px;}
     
     /*About section*/
     #about{text-align: center;}
@@ -83,7 +84,7 @@
     
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
-    .herocontent{padding-top: 100px;}
+    .herocontent{padding-top: 250px;padding-left: 100px;}
 }
 
 /* Smallest Mobile Devices */
@@ -91,7 +92,7 @@
     
     #hero{height: 500px; background: url(../img/trianglify-background3.jpg)no-repeat;}
     background: url(../img/trianglify-background2.jpg)no-repeat;
-    .herocontent{padding-top: 100px; padding-bottom: 30px;}
+    .herocontent{padding-top: 250px;padding-left: 100px;}
 
 }
 
