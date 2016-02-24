@@ -1,7 +1,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1280px) {    
     /*HREO AREA */
-    #hero{max-height: 780px; background: url(../img/trianglify-background7.jpg)no-repeat;}    
+    #hero{max-height: 780px; background: url(../img/trianglify-background1.jpg)no-repeat;}    
     
     /* FEATURED CLIENTS SECTION*/
     #clients img{height: 50px;}
@@ -78,7 +78,7 @@
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
     #hero{height:; 
-        background-image: url("../img/trianglify-background8.jpg"); background-size: 500px}
+        background-image: url("../img/trianglify-background9.jpg"); background-size: 500px}
 /*    background: url(../img/trianglify-background3.jpg)no-repeat;}*/
     
     #clients {display: none;}
